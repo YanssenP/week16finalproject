@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+    color: rgb(172, 161, 98);
+    text-decoration: underline;
+
+    border-width: 3px;
+    border-style: solid;
+
+}
+
+.backgroundcity {
+    background-color: rgb(20, 19, 19);
+}
+
+.h3citys {
+    text-align: center;
+    color: rgb(172, 161, 98);
+    text-decoration: underline;
+}
+
+.citynames {
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    font-style: italic;
+
+}
+
+.newyorkpic {
+    width: 100%;
+}
+
+.nyinfo {
+    text-align: center;
+
+    color: rgb(172, 161, 98);
+    border: 2px solid;
+}
