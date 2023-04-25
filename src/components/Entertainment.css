@@ -1,3 +1,17 @@
 .entertainmnetbackground {
-    background-color: rgb(202, 171, 134);
+    background-color: rgb(20, 19, 19);
+}
+
+.columntv {
+    float: left;
+    width: 20%;
+    padding: 5px;
+}
+
+.tvphotos {
+    content: "";
+    clear: both;
+    display: table;
+    place-items: center;
+
 }
