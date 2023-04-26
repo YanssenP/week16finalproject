@@ -8,6 +8,7 @@ import { Container } from "react-bootstrap/";
 import { Home } from "./components/Home";
 import { Citys } from "./components/Citys";
 import { Entertainment } from "./components/Entertainment";
+import { Cars } from "./components/Cars";
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
         <Button>
           <Link to="/entertainment" className="btnlink">Entertainment</Link>
         </Button>
+        <Button  >
+          <Link to="/cars" className="btnlink">Automobiles</Link >
+        </Button>
       </ButtonGroup>
 
 
@@ -33,6 +37,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/citys" element={<Citys />} />
         <Route path="/entertainment" element={<Entertainment />} />
+        <Route path="/cars" element={<Cars />} />
       </Routes>
 
 

@@ -16,7 +16,7 @@
     content: "";
     clear: both;
     display: table;
-    place-items: center;
+    text-align: center;
 
 }
 
@@ -37,7 +37,7 @@
     content: "";
     clear: both;
     display: table;
-    place-items: center;
+    text-align: center;
 }
 
 .radiopic {
