@@ -1,5 +1,9 @@
 .entertainmnetbackground {
-    background-color: rgb(20, 19, 19);
+    background-color: rgb(177, 144, 101);
+}
+
+.titlee {
+    color: rgb(72, 116, 72);
 }
 
 .columntv {
@@ -14,4 +18,28 @@
     display: table;
     place-items: center;
 
+}
+
+.pmat {
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(72, 116, 72);
+    font-size: xx-large;
+}
+
+.tvsummary {
+    border: 3px white solid;
+    color: white;
+    font-size: larger;
+}
+
+.radiophotos {
+    content: "";
+    clear: both;
+    display: table;
+    place-items: center;
+}
+
+.radiopic {
+    width: 100%;
 }
