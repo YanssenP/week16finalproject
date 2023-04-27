@@ -1,0 +1,21 @@
+.homebackground {
+    background-color: rgb(4, 4, 19);
+}
+
+.homep {
+    color: rgb(235, 195, 147);
+    border: 2px solid white;
+    text-align: center;
+}
+
+.homesum {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+
+
+}
+
+.hometitle {
+    color: white;
+}

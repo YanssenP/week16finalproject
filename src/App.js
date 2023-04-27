@@ -9,6 +9,7 @@ import { Home } from "./components/Home";
 import { Citys } from "./components/Citys";
 import { Entertainment } from "./components/Entertainment";
 import { Cars } from "./components/Cars";
+import { Event } from "./components/Events"
 
 function App() {
   return (
@@ -29,6 +30,9 @@ function App() {
         <Button  >
           <Link to="/cars" className="btnlink">Automobiles</Link >
         </Button>
+        <Button  >
+          <Link to="/event" className="btnlink">Significant-Events</Link >
+        </Button>
       </ButtonGroup>
 
 
@@ -38,6 +42,7 @@ function App() {
         <Route path="/citys" element={<Citys />} />
         <Route path="/entertainment" element={<Entertainment />} />
         <Route path="/cars" element={<Cars />} />
+        <Route path="/Event" element={< Event />} />
       </Routes>
 
 
