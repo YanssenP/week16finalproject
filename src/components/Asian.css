@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+    color: rgba(98, 172, 135, 0.482);
+    text-decoration: underline;
+
+    border-width: 3px;
+    border-style: solid;
+
+}
+
+.sushi {
+    background-color: rgba(20, 19, 19, 0.631);
+}
+
+.h1citys {
+    text-align: center;
+    color: rgba(159, 172, 98, 0.913);
+    text-decoration: underline;
+}
+
+.citynames {
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    font-style: italic;
+
+}
+
+.newyorkpic {
+    width: 100%;
+}
+
+.nyinfo {
+    text-align: center;
+
+    color: rgba(98, 172, 170, 0.358);
+    border: 2px solid;
+}

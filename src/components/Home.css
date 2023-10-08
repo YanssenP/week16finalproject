@@ -1,15 +1,15 @@
 .homebackground {
-    background-color: rgb(4, 4, 19);
+    background-color: rgba(15, 19, 4, 0.523);
 }
 
 .homep {
-    color: rgb(235, 195, 147);
-    border: 2px solid white;
+    color: rgba(147, 235, 223, 0.832);
+    border: 2px solid rgba(255, 255, 255, 0.535);
     text-align: center;
 }
 
 .homesum {
-    color: white;
+    color: rgba(255, 255, 255, 0.866);
     text-align: center;
     text-decoration: underline;
 
@@ -17,5 +17,5 @@
 }
 
 .hometitle {
-    color: white;
+    color: rgba(255, 255, 255, 0.673);
 }

@@ -4,7 +4,7 @@
 
 .btnhome {
     border: 2px solid;
-    background-color: black;
+    background-color: rgba(53, 169, 171, 0.849);
     padding: 15px 32px;
     font-size: 14px;
     size: 16px;
@@ -12,11 +12,13 @@
 
     text-align: center;
 
+
+
 }
 
 .btnlink {
     cursor: pointer;
-    color: rgb(172, 161, 98);
+    color: rgba(40, 77, 133, 0.638);
     font-size: xx-large;
 
 }

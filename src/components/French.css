@@ -1,6 +1,6 @@
 h1 {
     text-align: center;
-    color: rgb(172, 161, 98);
+    color: rgba(143, 172, 98, 0.794);
     text-decoration: underline;
 
     border-width: 3px;
@@ -8,13 +8,13 @@ h1 {
 
 }
 
-.backgroundcity {
-    background-color: rgb(20, 19, 19);
+.firstdish {
+    background-color: rgba(19, 20, 19, 0.561);
 }
 
-.h3citys {
+.h1citys {
     text-align: center;
-    color: rgb(172, 161, 98);
+    color: rgba(159, 172, 98, 0.913);
     text-decoration: underline;
 }
 

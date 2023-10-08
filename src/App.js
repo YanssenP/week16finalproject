@@ -6,10 +6,12 @@ import { ButtonGroup } from "react-bootstrap/";
 import { Button } from "react-bootstrap/";
 import { Container } from "react-bootstrap/";
 import { Home } from "./components/Home";
-import { Citys } from "./components/Citys";
-import { Entertainment } from "./components/Entertainment";
-import { Cars } from "./components/Cars";
-import { Event } from "./components/Events"
+import { Asian } from "./components/Asian";
+import { French } from "./components/French";
+import { Italian } from "./components/Italian";
+import { Mediterranean } from "./components/Mediterranean"
+
+
 
 function App() {
   return (
@@ -22,16 +24,16 @@ function App() {
           <Link to="/" className="btnlink">Home</Link >
         </Button>
         <Button>
-          <Link to="/citys" className="btnlink">Citys</Link>
+          <Link to="/Asian" className="btnlink">Asian</Link>
         </Button>
         <Button>
-          <Link to="/entertainment" className="btnlink">Entertainment</Link>
+          <Link to="/French" className="btnlink">French</Link>
         </Button>
         <Button  >
-          <Link to="/cars" className="btnlink">Automobiles</Link >
+          <Link to="/Italian" className="btnlink">Italian</Link >
         </Button>
         <Button  >
-          <Link to="/event" className="btnlink">Significant-Events</Link >
+          <Link to="/Mediterranean" className="btnlink">Mediterranean</Link >
         </Button>
       </ButtonGroup>
 
@@ -39,10 +41,10 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/citys" element={<Citys />} />
-        <Route path="/entertainment" element={<Entertainment />} />
-        <Route path="/cars" element={<Cars />} />
-        <Route path="/Event" element={< Event />} />
+        <Route path="/Asian" element={<Asian />} />
+        <Route path="/French" element={<French />} />
+        <Route path="/Italian" element={<Italian />} />
+        <Route path="/Mediterranean" element={< Mediterranean />} />
       </Routes>
 
 
